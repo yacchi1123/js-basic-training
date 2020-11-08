@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <main>
+      <h1>TODOリスト</h1>
+      <div class="add">
+        <input id="add-text" type="text" placeholder="タスクを入力してください。">
+        <button id="add-btn">追加</button>
+      </div>
+      <div class="task">
+        <ul id="task-list">
+          <li>
+            <p class="task__text">部屋の掃除</p>
+            <button class="js-delete-btn">削除</button>
+            <button class="js-done-btn">完了</button>
+          </li>
+          <li>
+            <p class="task__text is-done">プログラミングの勉強</p>
+            <button class="js-delete-btn">削除</button>
+            <button class="js-done-btn">完了</button>
+          </li>
+        </ul>
+      </div>  
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
