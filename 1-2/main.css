@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+ul {
+  padding: 0;
+}
+
+.item-list__item {
+  display: flex;
+}
+
+.vegi-price {
+  margin-left: 5px;
+}
